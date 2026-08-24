@@ -7,7 +7,7 @@ Obsidian Timeline Checker —— 时间线矛盾检测器
   python checker.py <vault_root>
 
 环境变量:
-  ERA_PATTERN   自定义纪年正则（如 "凌日纪年[前]?约?(\d+)年" 或 "公元(\d+)年"）
+  ERA_PATTERN   自定义纪年正则（如 "新历[前]?约?(\d+)年" 或 "公元(\d+)年"）
                  设了则同时匹配通用年份 + 自定义纪年；不设则只匹配通用 "\d{1,4}年"
   PLACEHOLDER   占位符模式（默认 "■■■|???|TBD|待定"）
   IGNORE_DIRS   额外忽略目录（逗号分隔）

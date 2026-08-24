@@ -2,7 +2,7 @@
 name: impression-song-crafter
 description: |-
   This skill should be used when the user wants to turn a character card (角色卡)
-  — from the 凌日星 worldview vault or any character profile — into SUNO-ready
+  — from any worldview vault or character profile — into SUNO-ready
   song material: a music style prompt plus rhyming lyrics stripped of AI-slop.
   Trigger when the user asks for an 印象曲 / 角色曲 / theme song from a character
   entry, or wants lyrics that rhyme and read human rather than generic-AI. It

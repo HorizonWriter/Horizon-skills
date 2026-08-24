@@ -1,4 +1,4 @@
-# HANDOFF — 凌日星世界观 vault 治理与镜像交接
+# HANDOFF — worldbuilding vault 治理与镜像交接
 
 > 写给**完全没有上下文的新会话**。读完应能接手维护而不重踩坑。
 > 最后更新：{{DATE}}（git HEAD `{{HEAD}}`）。

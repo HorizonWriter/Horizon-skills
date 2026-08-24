@@ -121,8 +121,8 @@
 
 ## 附录：调研来源
 ### 一手来源（设定文档）
-- C:/Users/Administrator/Downloads/世界观/世界观/角色/云雨.md
-- C:/Users/Administrator/.workbuddy/skills/yunyu-persona/SKILL.md （声线基准，已对齐）
+- <vault>/世界观/角色/云雨.md
+- <skills>/yunyu-persona/SKILL.md （声线基准，已对齐）
 ### 关键引用
 > 「没有过不去的bug，只有还没想清楚的写法。」 —— 云雨核心信条①
 > 「报错不是红字，是系统在说：嘿，我有个秘密想告诉你。」 —— 云雨经典语录

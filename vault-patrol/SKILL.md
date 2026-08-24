@@ -1,7 +1,7 @@
 ---
 name: vault-patrol
 description: >-
-  凌日星世界观 vault 定期巡检 + 网盘分发 SOP。把"清临时文件 → 刷新 5 份元文档
+  worldbuilding vault 定期巡检 + 网盘分发 SOP。把"清临时文件 → 刷新 5 份元文档
   (AGENT/HANDOFF/CHECK/SKILLBUILD/SKILL) → 下载网盘原有世界观去重(本地结构不变) →
   打包 世界观(含故事列表)+skill 单 zip → 上传网盘根目录覆盖 → 生成转接 JSON"
   整套动作固化为一条可复跑命令。
@@ -12,9 +12,9 @@ description: >-
 agent_created: true
 ---
 
-# vault-patrol — 凌日星世界观 vault 巡检 / 分发 skill
+# vault-patrol — worldbuilding vault 巡检 / 分发 skill
 
-> 一句话：vault 的"版本发布 + 交接快照"流水线。每次巡检 = 一次「凌日星版本更新」。
+> 一句话：vault 的"版本发布 + 交接快照"流水线。每次巡检 = 一次「vault 版本更新」。
 > 本 skill 沉淀自 2026-08-18 多轮手工巡检，固化所有踩过的坑。
 
 ---
@@ -107,10 +107,11 @@ for d in $(find /workspace/skills -maxdepth 1 -mindepth 1 -type d ! -name '.git'
   cp -r "$d" skills/; done
 cp -r ~/.codebuddy/skills/impression-song-crafter skills/
 find /tmp/pkg -name __pycache__ -type d -exec rm -rf {} + ; find /tmp/pkg -name '*.pyc' -delete
-zip -rq /workspace/凌日星世界观-含故事列表+skills-<日期>.zip 世界观 skills
+zip -rq /workspace/<vault-name>-含故事列表+skills-<日期>.zip 世界观 skills
 ```
 - 顶层必须为 `世界观/` + `skills/`；排除 `.git`/`.trash`/`__pycache__`/`.DS_Store`。
-- 命名规范：`凌日星世界观-含故事列表+skills-YYYYMMDD.zip`。
+- 命名规范：`<vault-name>-含故事列表+skills-YYYYMMDD.zip`；示例：`<vault-name>`=玄机城世界观
+  时为 `玄机城世界观-含故事列表+skills-20260824.zip`。
 
 ---
 

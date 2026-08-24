@@ -1,4 +1,4 @@
-# CHECK — 凌日星世界观 vault 仓库体检报告
+# CHECK — worldbuilding vault 仓库体检报告
 
 > 基于**实测脚本**（`obsidian-vault-doctor/doctor.py` + `vault-ops-handoff/snapshot_audit.py`），非记忆。
 > 被测对象：`{{VAULT}}`，共 **{{TOTAL_MD}}** 个 `.md`。

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 r"""
-凌日星世界观条目脚手架 v2 —— 基于 _templates/ 模板元数据。
+worldbuilding vault 条目脚手架 v2 —— 基于 _templates/ 模板元数据。
 
 创建符合 Obsidian wikilink 规范的 vault 新条目：
   - 自动 H1 标题
@@ -139,7 +139,7 @@ def build_draft(template, name, fields_dict, refs_str, include_prompt=True):
 
 def main():
     ap = argparse.ArgumentParser(
-        description="凌日星世界观条目脚手架 v2 —— 基于 _templates/ 模板元数据",
+        description="worldbuilding vault 条目脚手架 v2 —— 基于 _templates/ 模板元数据",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""示例:
   python scaffold.py /workspace/世界观 角色 --name 林夕 --fields "org=玄机城,race=猫科亚人"
@@ -148,7 +148,7 @@ def main():
 """,
     )
     ap.add_argument("vault", nargs="?", help="vault 根目录")
-    ap.add_argument("type", nargs="?", help="板块类型（角色/组织/种族/科技/地理/事件/历史/物品/文化/生物/疾病/军事/系统/凌日星概要）")
+    ap.add_argument("type", nargs="?", help="板块类型（角色/组织/种族/科技/地理/事件/历史/物品/文化/生物/疾病/军事/系统/世界概要）")
     ap.add_argument("--list-types", action="store_true", help="列出支持的板块类型")
     ap.add_argument("--name", help="条目显示名称")
     ap.add_argument("--fields", default="", help="档案字段，逗号分隔 KEY=VALUE 格式")

@@ -119,12 +119,12 @@
 
 ## 附录：调研来源
 ### 一手来源（设定文档）
-- C:/Users/Administrator/Downloads/世界观/世界观/角色/凌知晓.md
-- C:/Users/Administrator/Downloads/世界观/世界观/角色/凌澈.md
-- C:/Users/Administrator/Downloads/世界观/6a4f38609d93354294a0f587_凌澈人物设定等2项文件/6a4f38609d93354294a0f587_凌澈人物设定.imported.txt
-- C:/Users/Administrator/Downloads/世界观/世界观/_scenes/干净的信号.md
-- C:/Users/Administrator/Downloads/世界观/世界观/_scenes/凌澈·走线.md
-- C:/Users/Administrator/Downloads/世界观/6a4f38609d93354294a0f587_凌澈人物设定等2项文件/6a4f38609d93354294a0f587_晶核熵化症完整设定.imported.txt
+- <vault>/世界观/角色/凌知晓.md
+- <vault>/世界观/角色/凌澈.md
+- <vault>/6a4f38609d93354294a0f587_凌澈人物设定等2项文件/6a4f38609d93354294a0f587_凌澈人物设定.imported.txt
+- <vault>/世界观/_scenes/干净的信号.md
+- <vault>/世界观/_scenes/凌澈·走线.md
+- <vault>/6a4f38609d93354294a0f587_凌澈人物设定等2项文件/6a4f38609d93354294a0f587_晶核熵化症完整设定.imported.txt
 ### 关键引用
 > "她从来不说'我害怕'，而是问'你今天调出多少干净的信号'。" —— 凌知晓.md
 > "她知道哥哥在做一件很重要的事——那件事关乎她还能不能继续'是凌知晓'。" —— 凌知晓.md

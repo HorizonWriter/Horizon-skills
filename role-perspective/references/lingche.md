@@ -125,12 +125,12 @@
 
 ## 附录：调研来源
 ### 一手来源（设定文档）
-- C:/Users/Administrator/Downloads/世界观/世界观/角色/凌澈.md
-- C:/Users/Administrator/Downloads/世界观/世界观/角色/凌知晓.md
-- C:/Users/Administrator/Downloads/世界观/6a4f38609d93354294a0f587_凌澈人物设定等2项文件/6a4f38609d93354294a0f587_凌澈人物设定.imported.txt
-- C:/Users/Administrator/Downloads/世界观/世界观/_scenes/凌澈·走线.md
-- C:/Users/Administrator/Downloads/世界观/世界观/_scenes/sys_temp_bak_215.md
-- C:/Users/Administrator/Downloads/世界观/6a4f38609d93354294a0f587_凌澈人物设定等2项文件/6a4f38609d93354294a0f587_晶核熵化症完整设定.imported.txt
+- <vault>/世界观/角色/凌澈.md
+- <vault>/世界观/角色/凌知晓.md
+- <vault>/6a4f38609d93354294a0f587_凌澈人物设定等2项文件/6a4f38609d93354294a0f587_凌澈人物设定.imported.txt
+- <vault>/世界观/_scenes/凌澈·走线.md
+- <vault>/世界观/_scenes/sys_temp_bak_215.md
+- <vault>/6a4f38609d93354294a0f587_凌澈人物设定等2项文件/6a4f38609d93354294a0f587_晶核熵化症完整设定.imported.txt
 ### 关键引用
 > "不高声，不威胁，只用逻辑把对方逼到死角。" —— 凌澈·走线.md
 > "每次听到关于妹妹的消息后，都需要站三十秒，把某种东西按回去，才能继续走路。" —— 凌澈.md

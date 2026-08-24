@@ -1,6 +1,6 @@
 ---
 name: obsidian-timeline-checker
-description: 通用 Obsidian 时间线矛盾检测器。扫描 vault 中的时间引用、年龄线索、占位年份，跨文件交叉对比输出疑似矛盾。默认匹配通用"\d{1,4}年"，可通过 ERA_PATTERN 环境变量追加自定义纪年（如"凌日纪年\d+年""公元\d+年"）。当用户说"检查时间线""timeline conflict""时间矛盾""年份冲突""年龄矛盾"时使用。
+description: 通用 Obsidian 时间线矛盾检测器。扫描 vault 中的时间引用、年龄线索、占位年份，跨文件交叉对比输出疑似矛盾。默认匹配通用"\d{1,4}年"，可通过 ERA_PATTERN 环境变量追加自定义纪年（如"新历[前]?约?\d+年""公元\d+年"）。当用户说"检查时间线""timeline conflict""时间矛盾""年份冲突""年龄矛盾"时使用。
 ---
 
 # Obsidian Timeline Checker
@@ -21,7 +21,7 @@ description: 通用 Obsidian 时间线矛盾检测器。扫描 vault 中的时�
 python checker.py /path/to/vault
 
 # 追加自定义纪年模式
-ERA_PATTERN="凌日纪年[前]?约?(\d+)年" python checker.py /path/to/vault
+ERA_PATTERN="新历[前]?约?(\d+)年" python checker.py /path/to/vault
 
 # 多纪年体系
 ERA_PATTERN="公元(\d+)年|建安(\d+)年" python checker.py /path/to/vault

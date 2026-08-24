@@ -1,12 +1,12 @@
-"""shared-vault-lib: 被多个 worldbuilding skill 共用的 vault 访问与工具函数。
+"""shared-vault-lib: 被多个 worldbuilding / Obsidian vault skill 共用的访问与工具函数。
 
-原先缺失（F:/世界观/skills/shared-vault-lib/scripts/libvault.py 不存在），
-导致 6 个 skill（ghost-detector / entry-expander-advisor / scene-canon-tracker /
-timeline-checker / plot-hook-tracker / backlink-completer）导入即崩溃、完全跑不起来。
-现补齐，所有 skill 共用同一份实现。
+提供 vault 根目录探测、wikilink 解析、文件读写（含备份）、终端着色等通用能力，
+各 skill 导入同一份实现，避免重复代码。
 
-vault 根目录优先读环境变量 VAULT_PATH，否则回退到 F:/世界观/世界观。
-注意：不要把路径写死成 C:/Users/.../Downloads（该目录已不存在）。
+vault 根目录优先读环境变量 VAULT_PATH，否则从 cwd 向上探测包含 .obsidian/
+的目录，仍找不到则回退到 cwd。不要把路径写死在脚本里；不同用户机器上的
+vault 位置各异，一律通过环境变量或命令行参数传入。
+
 """
 import os
 import re
@@ -40,7 +40,10 @@ VAULT_ROOT = _detect_vault_root()
 
 IGNORE_DIRS = {".obsidian", ".trash", "node_modules", "__pycache__",
                "_scenes", "_templates", "贡献列表", ".workbuddy", ".git"}
-# 被排除的非目录条目：vault 根下的 skill 文档、索引等不应被当作物料扫描
+# 被排除的非目录条目：vault 根下的 skill 文档、索引等不应被当作物料扫描。
+# 注意："贡献列表"、"世界索引.md" 是原作者 vault 的项目专属目录/索引名，
+# 仅为向后兼容而保留；使用者可在自己的 skill 中按需覆盖这两个集合，
+# 或在调用前自行增删条目，本模块不假设任何特定命名约定。
 IGNORE_FILES = {"SKILL.md", "AGENT.md", "世界索引.md"}
 
 # 目标排除 ] | # 和 \（反斜杠仅出现在表格内转义管道 \| 前）；

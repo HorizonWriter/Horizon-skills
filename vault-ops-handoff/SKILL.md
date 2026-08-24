@@ -1,7 +1,7 @@
 ---
 name: vault-ops-handoff
 description: >-
-  为凌日星 vault 仓库生成运维交接 / 检查 / 构建类元文档
+  为 worldbuilding vault 仓库生成运维交接 / 检查 / 构建类元文档
   （HANDOFF.md / CHECK.md / SKILLBUILD.md）。当用户说"写交接文档"
   "生成仓库体检""构建 skill 描述""沉淀运维文档""给我一份 handoff"时触发。
   基于当前 git 状态、实测体检脚本输出与现有 skill 生态，产出面向零上下文新会话的可接手文档。
