@@ -63,6 +63,12 @@ cd shared-vault-lib && python -m pytest ../tests -q
 | `INDEX_MAP` / `INDEX_FILE` / `LINK_SECTION` | entry-register | 板块→总览页映射、全局索引、关联板块段标题 |
 | `ENTRY_FIELDS` | notes-to-entry | 标准条目的档案字段集 |
 
+## 致谢 / 灵感来源
+
+本仓库的「去 AI 腔」（anti AI-slop）思路来自 [Ege Çelebi (woosal1337)](https://github.com/woosal1337) 的视频与开源套件 **《The cure for AI slop is a 1986 aircraft manual》**（[ep01-the-cure-for-ai-slop](https://github.com/woosal1337/blog/tree/main/videos/ep01-the-cure-for-ai-slop)）——其基于 ASD-STE100 简明技术英语规范提炼的 agent skill 与启发式 linter。本仓库中的相关实践（如 [impression-song-crafter](impression-song-crafter/) 的中文去 AI 腔规则 `anti-ai-slop-zh.md` / `anti_slop_zh.py`）受其启发并做了中文语境改编。
+
+该来源仓库的代码部分以 [MIT 许可](https://github.com/woosal1337/blog/blob/main/LICENSE)提供；其博文文字与图片版权归作者所有。特此致谢。
+
 ## License
 
 见 [LICENSE](LICENSE)。
